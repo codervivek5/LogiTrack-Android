@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LogiTrack Android</string>
+    <string name="logitrak">LogiTrak - Your Logistic Deliver Partner</string>
+    <string name="developed_by_techdilation">Developed by - TechDilation</string>
+
+    <string name="home">Home</string>
+    <string name="product">Product</string>
+    <string name="Add"> </string>
+    <string name="order">Order</string>
+    <string name="profile">Profile</string>
+    <string name="login_button">Login</string>
+    <string name="new_user">New user? Register Now</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_tracking_partner">Your Tracking Partner</string>
+</resources>
