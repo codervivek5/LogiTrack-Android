@@ -6,4 +6,6 @@
     </style>
 
     <style name="Theme.LogiTrackAndroid" parent="Base.Theme.LogiTrackAndroid" />
+
+
 </resources>

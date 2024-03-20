@@ -18,37 +18,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="277dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="104dp"
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/currentLocationButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
         android:background="@drawable/edit_text_background"
-        android:ems="10"
-        android:hint="Enter track number"
-        android:inputType="text"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:textColorHint="@color/orange"
-        app:layout_constraintStart_toStartOf="@+id/mapView"
-        app:layout_constraintTop_toTopOf="@+id/mapView" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginRight="16dp"
-        android:background="@drawable/buton_background"
-        android:src="@android:drawable/ic_menu_send"
-        android:text="@string/track"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextText4"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/current_location_description"
+        android:src="@drawable/current_location"
+        app:layout_constraintBottom_toBottomOf="@+id/mapView"
+        app:layout_constraintEnd_toEndOf="@+id/mapView"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/editTextText4"
-        app:layout_constraintTop_toTopOf="@+id/editTextText4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="@+id/mapView"
+        app:layout_constraintTop_toTopOf="@+id/mapView"
+        app:layout_constraintVertical_bias="0.745"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/liveLocationButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"
+        android:contentDescription="@string/live_location_description"
+        android:src="@drawable/live_location"
+        app:layout_constraintEnd_toEndOf="@+id/currentLocationButton"
+        app:layout_constraintStart_toStartOf="@+id/currentLocationButton"
+        app:layout_constraintTop_toBottomOf="@+id/currentLocationButton"
+        tools:ignore="TouchTargetSizeCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

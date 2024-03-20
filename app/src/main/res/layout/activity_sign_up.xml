@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/fullName"
         android:layout_width="330dp"
         android:layout_height="57dp"
         android:layout_marginTop="57dp"
@@ -37,7 +37,7 @@
         tools:ignore="HardcodedText,RtlSymmetry" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="330dp"
         android:layout_height="57dp"
         android:layout_marginTop="24dp"
@@ -48,13 +48,13 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingStart="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextText3"
-        app:layout_constraintStart_toStartOf="@+id/editTextText3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        app:layout_constraintEnd_toEndOf="@+id/fullName"
+        app:layout_constraintStart_toStartOf="@+id/fullName"
+        app:layout_constraintTop_toBottomOf="@+id/fullName"
         tools:ignore="HardcodedText,RtlSymmetry" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passsword"
         android:layout_width="330dp"
         android:layout_height="57dp"
         android:layout_marginTop="24dp"
@@ -65,14 +65,14 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:paddingStart="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:ignore="RtlSymmetry" />
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/registerButton"
+        android:id="@+id/createAccountButton"
         android:layout_width="330dp"
         android:layout_height="57dp"
         android:layout_marginTop="24dp"
@@ -82,12 +82,12 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/passsword"
+        app:layout_constraintStart_toStartOf="@+id/passsword"
+        app:layout_constraintTop_toBottomOf="@+id/passsword" />
 
     <TextView
-        android:id="@+id/alreadyHaveUserBotton"
+        android:id="@+id/alreadyHaveUserButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -96,9 +96,9 @@
         android:text="@string/already_have_an_account"
         android:textColor="@color/orange"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/registerButton"
-        app:layout_constraintStart_toStartOf="@+id/registerButton"
-        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+        app:layout_constraintEnd_toEndOf="@+id/createAccountButton"
+        app:layout_constraintStart_toStartOf="@+id/createAccountButton"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountButton" />
 
 
     <ImageView
@@ -122,12 +122,12 @@
         android:layout_marginTop="32dp"
         android:text="User other method"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/alreadyHaveUserBotton"
+        app:layout_constraintEnd_toEndOf="@+id/alreadyHaveUserButton"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintStart_toStartOf="@+id/alreadyHaveUserBotton"
-        app:layout_constraintTop_toBottomOf="@+id/alreadyHaveUserBotton" />
+        app:layout_constraintStart_toStartOf="@+id/alreadyHaveUserButton"
+        app:layout_constraintTop_toBottomOf="@+id/alreadyHaveUserButton" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -142,7 +142,7 @@
         app:srcCompat="@drawable/line" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/googleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -153,13 +153,13 @@
         android:paddingStart="15dp"
         android:text="@string/google"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/facebookButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button6"
+        android:id="@+id/facebookButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -172,7 +172,7 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/googleButton"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         tools:ignore="RtlSymmetry" />
 

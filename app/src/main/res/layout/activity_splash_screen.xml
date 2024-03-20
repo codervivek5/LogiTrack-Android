@@ -15,7 +15,10 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:animateLayoutChanges="true"
+        android:layoutAnimation="@anim/anim" />
+
 
     <TextView
         android:id="@+id/textView"

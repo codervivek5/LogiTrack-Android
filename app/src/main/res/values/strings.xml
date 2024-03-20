@@ -1,4 +1,6 @@
 <resources>
+    <string name="default_web_client_id">567380181891-m15oj8u4r88c659n2lmmuu2tdjlcoh97.apps.googleusercontent.com</string>
+
     <string name="app_name">LogiTrack Android</string>
     <string name="logitrak">LogiTrak - Your Logistic Deliver Partner</string>
     <string name="developed_by_techdilation">Developed by - TechDilation</string>
@@ -11,13 +13,18 @@
     <string name="login_button">Login</string>
     <string name="new_user">New user? Register Now</string>
     <string name="password">password</string>
-    <string name="register">Register</string>
+    <string name="register">Create Account</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>
     <string name="already_have_an_account">Already have an Account?</string>
+
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Pending_order_fragment">Pending order fragment</string>
     <string name="your_tracking_partner">Your Tracking Partner</string>
     <string name="track">Track</string>
     <string name="map_content_description">Map view for tracking</string>
+    <string name="live_location_description">this is live location\n</string>
+    <string name="current_location_description">for current location</string>
+    <string name="pending_order">Pending Order</string>
+    <string name="complete_order">Complete Order</string>
 </resources>

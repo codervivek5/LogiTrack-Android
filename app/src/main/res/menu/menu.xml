@@ -5,9 +5,9 @@
         android:id="@+id/homeFragment"
         android:icon="@drawable/home"/>
 
-    <item android:title="@string/product"
-        android:id="@+id/productFragment"
-        android:icon="@drawable/product"/>
+<!--    <item android:title="@string/product"-->
+<!--        android:id="@+id/productFragment"-->
+<!--        android:icon="@drawable/product"/>-->
 
     <item android:title="@string/order"
         android:id="@+id/orderFragment"
