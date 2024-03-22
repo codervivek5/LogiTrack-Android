@@ -51,15 +51,26 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
     implementation("com.google.android.gms:play-services-maps:18.2.0")
     implementation("com.google.firebase:firebase-auth:22.3.1")
-    implementation("com.google.firebase:firebase-database-ktx:20.3.0")
+    implementation("com.google.firebase:firebase-database-ktx:20.3.1")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
-    implementation("com.google.firebase:firebase-database:20.3.0")
-    implementation("com.google.android.gms:play-services-location:21.1.0")
+    implementation("com.google.firebase:firebase-database:20.3.1")
+    implementation("com.google.android.gms:play-services-location:21.2.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
+    //  fancy toast
     implementation ("io.github.shashank02051997:FancyToast:2.0.2")
+
+    //Tracking View
+    implementation ("com.github.vipulasri:timelineview:1.1.5")
+
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+
+    // Sweet Alert
+    implementation ("com.github.f0ris.sweetalert:library:1.5.6")
+
 
 
 }
