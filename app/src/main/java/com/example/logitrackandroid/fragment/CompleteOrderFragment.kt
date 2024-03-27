@@ -6,8 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.logitrackandroid.R
+import com.example.logitrackandroid.model.CompleteOrderModel
 
 class CompleteOrderFragment : Fragment() {
+
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
